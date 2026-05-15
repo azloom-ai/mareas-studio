@@ -49,6 +49,7 @@ nav {
 }
 
 .nav-logo svg { width: 28px; height: 28px; color: var(--rust); }
+.nav-logo-img { height: 38px; width: auto; object-fit: contain; }
 
 .nav-logo-text {
   font-family: 'Cormorant Garamond', serif;
@@ -671,6 +672,7 @@ footer {
 }
 
 .footer-logo svg { width: 20px; height: 20px; color: var(--rust); opacity: 0.7; }
+.footer-logo-img { height: 32px; width: auto; object-fit: contain; opacity: 0.85; filter: brightness(2); }
 
 /* ── QUOTE BANNER ── */
 .quote-banner {
