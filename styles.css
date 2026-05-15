@@ -851,6 +851,22 @@ footer {
   .gallery-item:nth-child(6), .gallery-item:nth-child(7) { grid-column: auto; }
 }
 
+/* ── LANG TOGGLE ── */
+.lang-toggle {
+  background: none;
+  border: 1px solid var(--sand);
+  color: var(--text-muted);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  padding: 0.35rem 0.7rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.lang-toggle:hover { border-color: var(--dark); color: var(--dark); }
+
 /* ── HAMBURGER ── */
 .nav-hamburger {
   display: none;
