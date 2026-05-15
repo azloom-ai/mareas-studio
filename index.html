@@ -53,12 +53,9 @@
   <!-- ── NAV ── -->
   <nav>
     <a href="#inicio" class="nav-logo">
-      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="20" cy="20" r="5" fill="currentColor"/>
-        <line x1="20" y1="4" x2="20" y2="36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="4" y1="20" x2="36" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="8.7" y1="8.7" x2="31.3" y2="31.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="31.3" y1="8.7" x2="8.7" y2="31.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <path d="M37,20 L23.23,18.66 L32.02,7.98 L21.34,16.77 L20,3 L18.66,16.77 L7.98,7.98 L16.77,18.66 L3,20 L16.77,21.34 L7.98,32.02 L18.66,23.23 L20,37 L21.34,23.23 L32.02,32.02 L23.23,21.34 Z" fill="currentColor"/>
+        <circle cx="20" cy="20" r="2.5" fill="white" opacity="0.9"/>
       </svg>
       <div>
         <span class="nav-logo-text">mareas</span>
@@ -221,8 +218,56 @@
     <div class="horario-inner">
       <span class="section-label" data-i18n="schedule.label">Cuándo encontrarnos</span>
       <h2 class="section-title" data-i18n-html="schedule.title">Horario <em>de clases</em></h2>
-      <span class="horario-day" data-i18n="schedule.day">Jueves</span>
+      <!-- MIÉRCOLES -->
+      <span class="horario-day" data-i18n="schedule.wednesday">Miércoles</span>
+      <div class="horario-list">
 
+        <div class="horario-item">
+          <div class="horario-icon" style="background: rgba(74,107,66,0.15);">
+            <svg viewBox="0 0 20 48" fill="#4A6B42" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10,3 C12.5,4.5 15,12 15,24 C15,36 12.5,44 10,45.5 C7.5,44 5,36 5,24 C5,12 7.5,4.5 10,3 Z"/>
+              <circle cx="10" cy="18" r="1.6" fill="white" opacity="0.85"/>
+              <circle cx="10" cy="24" r="1.6" fill="white" opacity="0.85"/>
+              <circle cx="10" cy="30" r="1.6" fill="white" opacity="0.85"/>
+            </svg>
+          </div>
+          <div>
+            <div class="horario-class-name">Mini Groms</div>
+            <div class="horario-class-sub" data-i18n="schedule.minigroms.sub">3–5 años · Movimiento a través del juego</div>
+          </div>
+          <div class="horario-time">3:00 PM — 4:00 PM</div>
+        </div>
+
+        <div class="horario-item">
+          <div class="horario-icon" style="background: rgba(61,107,107,0.15);">
+            <svg viewBox="0 0 20 48" fill="#3D6B6B" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10,4 C13,6 16,14 16,25 C16,36 13,43 10,46 C8.5,44.5 7,42 6,39 L5,44 L4,42 C4,42 4,36 4,25 C4,14 7,6 10,4 Z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="horario-class-name">Grommets</div>
+            <div class="horario-class-sub" data-i18n="schedule.grommets.sub">6–14 años · Fuerza, elasticidad y acrobacia</div>
+          </div>
+          <div class="horario-time">4:15 PM — 5:30 PM</div>
+        </div>
+
+        <div class="horario-item">
+          <div class="horario-icon" style="background: rgba(139,74,53,0.15);">
+            <svg viewBox="0 0 20 48" fill="#8B4A35" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10,2 C13,3 17,12 17,24 C17,36 13,45 10,46 C7,45 3,36 3,24 C3,12 7,3 10,2 Z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="horario-class-name">Adults</div>
+            <div class="horario-class-sub" data-i18n="schedule.adults.wed.sub">15+ años · 5:45 PM — 6:45 PM</div>
+          </div>
+          <div class="horario-time">5:45 PM — 6:45 PM</div>
+        </div>
+
+      </div>
+
+      <!-- JUEVES -->
+      <span class="horario-day" style="margin-top: 3rem;" data-i18n="schedule.day">Jueves</span>
       <div class="horario-list">
 
         <div class="horario-item">
@@ -366,12 +411,9 @@
   <!-- ── FOOTER ── -->
   <footer>
     <a href="#inicio" class="footer-logo">
-      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="20" cy="20" r="5" fill="currentColor"/>
-        <line x1="20" y1="4" x2="20" y2="36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="4" y1="20" x2="36" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="8.7" y1="8.7" x2="31.3" y2="31.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="31.3" y1="8.7" x2="8.7" y2="31.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <path d="M37,20 L23.23,18.66 L32.02,7.98 L21.34,16.77 L20,3 L18.66,16.77 L7.98,7.98 L16.77,18.66 L3,20 L16.77,21.34 L7.98,32.02 L18.66,23.23 L20,37 L21.34,23.23 L32.02,32.02 L23.23,21.34 Z" fill="currentColor"/>
+        <circle cx="20" cy="20" r="2.5" fill="white" opacity="0.9"/>
       </svg>
       mareas studio
     </a>
@@ -412,8 +454,10 @@
         'classes.photos': 'Ver y descargar fotos',
         'schedule.label': 'Cuándo encontrarnos',
         'schedule.title': 'Horario <em>de clases</em>',
+        'schedule.wednesday': 'Miércoles',
         'schedule.day': 'Jueves',
         'schedule.adults.sub': '15+ años · Movilidad y flexibilidad avanzada',
+        'schedule.adults.wed.sub': '15+ años · 5:45 PM — 6:45 PM',
         'schedule.minigroms.sub': '3–5 años · Movimiento a través del juego',
         'schedule.grommets.sub': '6–14 años · Fuerza, elasticidad y acrobacia',
         'gallery.label': 'En acción',
@@ -454,8 +498,10 @@
         'classes.photos': 'View and download photos',
         'schedule.label': 'When to find us',
         'schedule.title': 'Class <em>schedule</em>',
+        'schedule.wednesday': 'Wednesday',
         'schedule.day': 'Thursday',
         'schedule.adults.sub': '15+ years · Advanced mobility and flexibility',
+        'schedule.adults.wed.sub': '15+ years · 5:45 PM — 6:45 PM',
         'schedule.minigroms.sub': '3–5 years · Movement through play',
         'schedule.grommets.sub': '6–14 years · Strength, elasticity and acrobatics',
         'gallery.label': 'In action',
