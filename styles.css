@@ -656,12 +656,14 @@ section { padding: 6rem 3rem; }
 .btn-waze:hover { background: #6e3828; color: white; }
 
 .btn-whatsapp-green {
+  background: #545833;
   border: 1.5px solid #545833;
-  color: #545833;
+  color: white;
   border-radius: 50px;
 }
 .btn-whatsapp-green:hover {
-  background: #545833;
+  background: #3a3e24;
+  border-color: #3a3e24;
   color: white;
 }
 
