@@ -329,6 +329,7 @@ section { padding: 6rem 3rem; }
 .intro-image-wrap {
   position: relative;
   height: 560px;
+  margin-bottom: 2.5rem;
 }
 
 .intro-image-wrap img {
@@ -341,7 +342,7 @@ section { padding: 6rem 3rem; }
 
 .intro-image-badge {
   position: absolute;
-  bottom: -2rem;
+  bottom: -2.2rem;
   left: 2rem;
   right: 2rem;
   transform: none;
