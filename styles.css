@@ -271,7 +271,8 @@ section { padding: 6rem 3rem; }
 }
 
 .section-title em {
-  font-style: normal;
+  font-style: normal !important;
+  font-family: 'Cremona', 'Cormorant Garamond', serif !important;
   color: var(--green);
 }
 
