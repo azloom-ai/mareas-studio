@@ -447,8 +447,8 @@ section { padding: 6rem 3rem; }
 
 /* ── HORARIO ── */
 .horario {
-  background: #ffffff;
-  color: var(--dark);
+  background: var(--dark);
+  color: white;
 }
 
 .horario-inner {
@@ -457,23 +457,23 @@ section { padding: 6rem 3rem; }
   text-align: center;
 }
 
-.horario .section-label { color: var(--rust); opacity: 1; }
-.horario .section-title { color: var(--dark); }
-.horario .section-title em { color: var(--green); }
+.horario .section-label { color: var(--sand); opacity: 0.7; }
+.horario .section-title { color: white; }
+.horario .section-title em { color: var(--sand); }
 
 .horario-day {
   display: inline-block;
   font-size: 0.6rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--rust);
-  opacity: 0.7;
+  color: var(--sand);
+  opacity: 0.6;
   margin-top: 0.5rem;
   margin-bottom: 3.5rem;
 }
 
 .horario-list {
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(255,255,255,0.1);
 }
 
 .horario-item {
@@ -482,12 +482,12 @@ section { padding: 6rem 3rem; }
   align-items: center;
   gap: 1.5rem;
   padding: 1.8rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.07);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   text-align: left;
   transition: background 0.2s;
 }
 
-.horario-item:hover { background: rgba(0,0,0,0.02); }
+.horario-item:hover { background: rgba(255,255,255,0.03); }
 
 .horario-icon {
   width: 36px;
@@ -504,21 +504,21 @@ section { padding: 6rem 3rem; }
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.6rem;
   font-weight: 300;
-  color: var(--dark);
+  color: white;
   line-height: 1;
 }
 
 .horario-class-sub {
   font-size: 0.62rem;
   letter-spacing: 0.12em;
-  color: rgba(0,0,0,0.45);
+  color: rgba(255,255,255,0.4);
   margin-top: 0.3rem;
 }
 
 .horario-time {
   font-size: 0.75rem;
   letter-spacing: 0.12em;
-  color: rgba(0,0,0,0.55);
+  color: rgba(255,255,255,0.6);
   font-weight: 300;
   white-space: nowrap;
 }
@@ -963,7 +963,7 @@ footer {
   section { padding: 4rem 1.5rem; }
   .horario-item { grid-template-columns: 30px 1fr; grid-template-rows: auto auto; align-items: start; }
   .horario-time { grid-column: 2; padding-bottom: 0.25rem; }
-  .horario-class-sub { font-size: 0.7rem; color: rgba(0,0,0,0.5); }
+  .horario-class-sub { font-size: 0.7rem; color: rgba(255,255,255,0.55); }
   footer { flex-direction: column; gap: 1rem; text-align: center; }
   .whatsapp-float { bottom: 1.5rem; right: 1.5rem; width: 50px; height: 50px; }
 }
