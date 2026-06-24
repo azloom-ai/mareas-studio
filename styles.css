@@ -119,7 +119,7 @@ nav {
   height: 100vh;
   min-height: 600px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   overflow: hidden;
 }
@@ -149,7 +149,7 @@ nav {
   z-index: 2;
   text-align: center;
   color: white;
-  padding: 4rem 1.5rem 0;
+  padding: 12vh 1.5rem 0;
 }
 
 .hero-eyebrow {
