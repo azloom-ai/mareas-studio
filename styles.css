@@ -173,6 +173,7 @@ nav {
 .hero-logo-img {
   width: clamp(260px, 45vw, 600px);
   height: auto;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   display: block;
   margin-left: auto;
@@ -193,6 +194,7 @@ nav {
   text-decoration: none;
   color: white;
   border: 1px solid rgba(255,255,255,0.6);
+  margin-top: 1.5rem;
   padding: 0.8rem 2.5rem;
   font-size: 0.65rem;
   letter-spacing: 0.25em;
