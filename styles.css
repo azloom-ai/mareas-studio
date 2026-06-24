@@ -655,6 +655,16 @@ section { padding: 6rem 3rem; }
 
 .btn-waze:hover { background: #6e3828; color: white; }
 
+.btn-whatsapp-green {
+  border: 1.5px solid #545833;
+  color: #545833;
+  border-radius: 50px;
+}
+.btn-whatsapp-green:hover {
+  background: #545833;
+  color: white;
+}
+
 .contacto-ubicacion {
   display: flex;
   align-items: center;
@@ -754,7 +764,7 @@ footer {
   z-index: 200;
   width: 56px;
   height: 56px;
-  background: #6A9E6F;
+  background: #545833;
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -766,7 +776,7 @@ footer {
 }
 .whatsapp-float:hover {
   transform: scale(1.08);
-  box-shadow: 0 6px 20px rgba(106,158,111,0.5);
+  box-shadow: 0 6px 20px rgba(84,88,51,0.5);
 }
 
 /* ── LIGHTBOX ── */
