@@ -106,7 +106,6 @@ nav {
   color: white !important;
   padding: 0.55rem 1.4rem;
   border-radius: 50px;
-  border-radius: 2px;
   font-size: 0.65rem !important;
   letter-spacing: 0.2em;
 }
@@ -883,7 +882,7 @@ footer {
   font-weight: 600;
   letter-spacing: 0.15em;
   padding: 0.35rem 0.7rem;
-  border-radius: 2px;
+  border-radius: 50px;
   cursor: pointer;
   transition: border-color 0.2s, color 0.2s;
 }
