@@ -691,7 +691,7 @@ footer {
 }
 
 .footer-logo svg { width: 20px; height: 20px; color: var(--rust); opacity: 0.7; }
-.footer-logo-img { height: 32px; width: auto; object-fit: contain; opacity: 0.9; }
+.footer-logo-img { height: 48px; width: auto; object-fit: contain; opacity: 1; }
 
 /* ── QUOTE BANNER ── */
 .quote-banner {
