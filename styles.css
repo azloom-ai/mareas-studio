@@ -484,6 +484,10 @@ section { padding: 6rem 3rem; }
   text-align: center;
 }
 
+.horario-inner .horario-day {
+  text-align: left !important;
+}
+
 .horario .section-label { color: var(--sand); opacity: 0.7; }
 .horario .section-title { color: white; }
 .horario .section-title em { color: var(--sand); }
