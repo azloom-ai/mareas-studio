@@ -341,10 +341,10 @@ section { padding: 6rem 3rem; }
 
 .intro-image-badge {
   position: absolute;
-  top: 50%;
+  bottom: -2rem;
   left: 2rem;
   right: 2rem;
-  transform: translateY(-50%);
+  transform: none;
   background: var(--green);
   color: white;
   padding: 1.4rem 2.5rem;
