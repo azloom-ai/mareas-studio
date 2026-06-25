@@ -114,10 +114,10 @@
     <div class="intro-text">
       <span class="section-label" data-i18n="about.label">Quiénes somos</span>
       <h2 class="section-title" data-i18n-html="about.title">Movimiento para <em>todas las edades</em></h2>
-      <p class="section-desc" style="margin-top: 1.5rem;" data-i18n="about.p1">
+      <p class="section-desc" data-i18n="about.p1">
         Mareas Studio es un espacio en Jacó, Costa Rica, dedicado al movimiento consciente. Trabajamos la movilidad y la flexibilidad desde la infancia hasta la adultez, en un ambiente cálido, seguro y estimulante.
       </p>
-      <p class="section-desc" style="margin-top: 1rem;" data-i18n="about.p2">
+      <p class="section-desc" data-i18n="about.p2">
         Cada clase está diseñada para el momento de vida de quien la toma — desde Mini Groms que dan sus primeros pasos en el movimiento, hasta adultos que buscan liberarse de las tensiones del día a día.
       </p>
       <div class="intro-stat-grid">
@@ -171,7 +171,7 @@
         <img src="fotos/NIC04271.jpg" alt="Clase Mini Groms — movilidad para niños de 3 a 5 años en Mareas Studio Jacó" />
         <div class="clase-overlay">
           <span class="clase-tag" data-i18n="classes.minigroms.age">3–5 años</span>
-          <div class="clase-accent" style="background: #ffffff;"></div>
+          <div class="clase-accent"></div>
           <h3 class="clase-name">Mini Groms</h3>
           <p class="clase-age">3:00 PM – 4:00 PM</p>
           <p class="clase-desc" data-i18n="classes.minigroms.desc">
@@ -186,7 +186,7 @@
         <img src="fotos/NIC03535.jpg" alt="Clase Grommets — entrenamiento de flexibilidad para niños de 6 a 14 años en Mareas Studio Jacó" />
         <div class="clase-overlay">
           <span class="clase-tag" data-i18n="classes.grommets.age">6–14 años</span>
-          <div class="clase-accent" style="background: #ffffff;"></div>
+          <div class="clase-accent"></div>
           <h3 class="clase-name">Grommets</h3>
           <p class="clase-age">4:15 PM – 5:30 PM</p>
           <p class="clase-desc" data-i18n="classes.grommets.desc">
@@ -201,7 +201,7 @@
         <img src="fotos/NIC04730.jpg" alt="Clase Adults — movilidad articular y flexibilidad para adultos en Mareas Studio Jacó" />
         <div class="clase-overlay">
           <span class="clase-tag" data-i18n="classes.adults.age">15+ años</span>
-          <div class="clase-accent" style="background: #ffffff;"></div>
+          <div class="clase-accent"></div>
           <h3 class="clase-name">Adults</h3>
           <p class="clase-age">9:30 AM – 10:30 AM</p>
           <p class="clase-desc" data-i18n="classes.adults.desc">
@@ -214,6 +214,22 @@
     </div>
   </section>
 
+  <!-- SVG sprite para íconos horario -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="icon-drop-green" viewBox="0 0 20 48">
+      <path d="M10,3 C12.5,4.5 15,12 15,24 C15,36 12.5,44 10,45.5 C7.5,44 5,36 5,24 C5,12 7.5,4.5 10,3 Z" fill="#4A6B42"/>
+      <circle cx="10" cy="18" r="1.6" fill="white" opacity="0.85"/>
+      <circle cx="10" cy="24" r="1.6" fill="white" opacity="0.85"/>
+      <circle cx="10" cy="30" r="1.6" fill="white" opacity="0.85"/>
+    </symbol>
+    <symbol id="icon-drop-teal" viewBox="0 0 20 48">
+      <path d="M10,4 C13,6 16,14 16,25 C16,36 13,43 10,46 C8.5,44.5 7,42 6,39 L5,44 L4,42 C4,42 4,36 4,25 C4,14 7,6 10,4 Z" fill="#3D6B6B"/>
+    </symbol>
+    <symbol id="icon-drop-rust" viewBox="0 0 20 48">
+      <path d="M10,2 C13,3 17,12 17,24 C17,36 13,45 10,46 C7,45 3,36 3,24 C3,12 7,3 10,2 Z" fill="#8B4A35"/>
+    </symbol>
+  </svg>
+
   <!-- ── HORARIO ── -->
   <section id="horario" class="horario">
     <div class="horario-inner">
@@ -224,13 +240,8 @@
       <div class="horario-list">
 
         <div class="horario-item">
-          <div class="horario-icon" style="background: rgba(74,107,66,0.15);">
-            <svg viewBox="0 0 20 48" fill="#4A6B42" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10,3 C12.5,4.5 15,12 15,24 C15,36 12.5,44 10,45.5 C7.5,44 5,36 5,24 C5,12 7.5,4.5 10,3 Z"/>
-              <circle cx="10" cy="18" r="1.6" fill="white" opacity="0.85"/>
-              <circle cx="10" cy="24" r="1.6" fill="white" opacity="0.85"/>
-              <circle cx="10" cy="30" r="1.6" fill="white" opacity="0.85"/>
-            </svg>
+          <div class="horario-icon horario-icon--green">
+            <svg viewBox="0 0 20 48"><use href="#icon-drop-green"/></svg>
           </div>
           <div>
             <div class="horario-class-name">Mini Groms</div>
@@ -240,10 +251,8 @@
         </div>
 
         <div class="horario-item">
-          <div class="horario-icon" style="background: rgba(61,107,107,0.15);">
-            <svg viewBox="0 0 20 48" fill="#3D6B6B" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10,4 C13,6 16,14 16,25 C16,36 13,43 10,46 C8.5,44.5 7,42 6,39 L5,44 L4,42 C4,42 4,36 4,25 C4,14 7,6 10,4 Z"/>
-            </svg>
+          <div class="horario-icon horario-icon--teal">
+            <svg viewBox="0 0 20 48"><use href="#icon-drop-teal"/></svg>
           </div>
           <div>
             <div class="horario-class-name">Grommets</div>
@@ -253,10 +262,8 @@
         </div>
 
         <div class="horario-item">
-          <div class="horario-icon" style="background: rgba(139,74,53,0.15);">
-            <svg viewBox="0 0 20 48" fill="#8B4A35" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10,2 C13,3 17,12 17,24 C17,36 13,45 10,46 C7,45 3,36 3,24 C3,12 7,3 10,2 Z"/>
-            </svg>
+          <div class="horario-icon horario-icon--rust">
+            <svg viewBox="0 0 20 48"><use href="#icon-drop-rust"/></svg>
           </div>
           <div>
             <div class="horario-class-name">Adults</div>
@@ -268,14 +275,12 @@
       </div>
 
       <!-- JUEVES -->
-      <span class="horario-day" style="margin-top: 3rem;" data-i18n="schedule.day">Jueves</span>
+      <span class="horario-day horario-day--spaced" data-i18n="schedule.thursday">Jueves</span>
       <div class="horario-list">
 
         <div class="horario-item">
-          <div class="horario-icon" style="background: rgba(139,74,53,0.15);">
-            <svg viewBox="0 0 20 48" fill="#8B4A35" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10,2 C13,3 17,12 17,24 C17,36 13,45 10,46 C7,45 3,36 3,24 C3,12 7,3 10,2 Z"/>
-            </svg>
+          <div class="horario-icon horario-icon--rust">
+            <svg viewBox="0 0 20 48"><use href="#icon-drop-rust"/></svg>
           </div>
           <div>
             <div class="horario-class-name">Adults</div>
@@ -285,13 +290,8 @@
         </div>
 
         <div class="horario-item">
-          <div class="horario-icon" style="background: rgba(74,107,66,0.15);">
-            <svg viewBox="0 0 20 48" fill="#4A6B42" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10,3 C12.5,4.5 15,12 15,24 C15,36 12.5,44 10,45.5 C7.5,44 5,36 5,24 C5,12 7.5,4.5 10,3 Z"/>
-              <circle cx="10" cy="18" r="1.6" fill="white" opacity="0.85"/>
-              <circle cx="10" cy="24" r="1.6" fill="white" opacity="0.85"/>
-              <circle cx="10" cy="30" r="1.6" fill="white" opacity="0.85"/>
-            </svg>
+          <div class="horario-icon horario-icon--green">
+            <svg viewBox="0 0 20 48"><use href="#icon-drop-green"/></svg>
           </div>
           <div>
             <div class="horario-class-name">Mini Groms</div>
@@ -301,10 +301,8 @@
         </div>
 
         <div class="horario-item">
-          <div class="horario-icon" style="background: rgba(61,107,107,0.15);">
-            <svg viewBox="0 0 20 48" fill="#3D6B6B" xmlns="http://www.w3.org/2000/svg">
-              <path d="M10,4 C13,6 16,14 16,25 C16,36 13,43 10,46 C8.5,44.5 7,42 6,39 L5,44 L4,42 C4,42 4,36 4,25 C4,14 7,6 10,4 Z"/>
-            </svg>
+          <div class="horario-icon horario-icon--teal">
+            <svg viewBox="0 0 20 48"><use href="#icon-drop-teal"/></svg>
           </div>
           <div>
             <div class="horario-class-name">Grommets</div>
@@ -452,9 +450,8 @@
         'schedule.label': 'Cuándo encontrarnos',
         'schedule.title': 'Horario <em>de clases</em>',
         'schedule.wednesday': 'Miércoles',
-        'schedule.day': 'Jueves',
+        'schedule.thursday': 'Jueves',
         'schedule.adults.sub': '15+ años · Movilidad y flexibilidad avanzada',
-        'schedule.adults.wed.sub': '15+ años · Movilidad y flexibilidad avanzada',
         'schedule.minigroms.sub': '3–5 años · Movimiento a través del juego',
         'schedule.grommets.sub': '6–14 años · Fuerza, elasticidad y acrobacia',
         'gallery.label': 'En acción',
@@ -496,9 +493,8 @@
         'schedule.label': 'When to find us',
         'schedule.title': 'Class <em>schedule</em>',
         'schedule.wednesday': 'Wednesday',
-        'schedule.day': 'Thursday',
+        'schedule.thursday': 'Thursday',
         'schedule.adults.sub': '15+ years · Advanced mobility and flexibility',
-        'schedule.adults.wed.sub': '15+ years · Advanced mobility and flexibility',
         'schedule.minigroms.sub': '3–5 years · Movement through play',
         'schedule.grommets.sub': '6–14 years · Strength, elasticity and acrobatics',
         'gallery.label': 'In action',
@@ -563,8 +559,19 @@
 
     galleryImgs.forEach((img, i) => {
       img.style.cursor = 'zoom-in';
+      img.setAttribute('tabindex', '0');
+      img.setAttribute('role', 'button');
       img.addEventListener('click', () => openLightbox(i));
+      img.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(i); } });
     });
+
+    /* ── SWIPE MOBILE ── */
+    let touchStartX = 0;
+    lightbox.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].clientX; }, { passive: true });
+    lightbox.addEventListener('touchend', e => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) diff > 0 ? showNext() : showPrev();
+    }, { passive: true });
 
     function closeLightbox() {
       lightbox.classList.remove('active');

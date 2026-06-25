@@ -300,6 +300,9 @@ section { padding: 6rem 3rem; }
 
 .intro-text { }
 
+.intro-text .section-desc + .section-desc { margin-top: 1rem; }
+.intro-text .section-desc:first-of-type { margin-top: 1.5rem; }
+
 .intro-stat-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -469,6 +472,7 @@ section { padding: 6rem 3rem; }
   width: 30px;
   height: 2px;
   margin-bottom: 0.8rem;
+  background: #ffffff;
   transition: width 0.4s;
 }
 
@@ -534,6 +538,11 @@ section { padding: 6rem 3rem; }
 }
 
 .horario-icon svg { width: 20px; height: 44px; }
+
+.horario-icon--green { background: rgba(74,107,66,0.15); }
+.horario-icon--teal  { background: rgba(61,107,107,0.15); }
+.horario-icon--rust  { background: rgba(139,74,53,0.15); }
+.horario-day--spaced { margin-top: 3rem; }
 
 .horario-class-name {
   font-family: 'Cremona', 'Cormorant Garamond', serif;
@@ -704,7 +713,7 @@ section { padding: 6rem 3rem; }
 /* ── FOOTER ── */
 footer {
   background: #ffffff;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0,0,0,0.65);
   border-top: 1px solid rgba(0,0,0,0.08);
   padding: 2.5rem 3rem;
   display: flex;
