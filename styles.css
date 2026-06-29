@@ -1022,10 +1022,11 @@ footer {
 }
 
 .mobile-link {
-  font-family: 'Cremona', 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 2.2rem;
   font-weight: 300;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   color: var(--dark);
   text-decoration: none;
   transition: color 0.2s;
@@ -1053,7 +1054,7 @@ footer {
   nav { padding: 1rem 1.5rem; }
   .nav-links { display: none; }
   .nav-hamburger { display: flex; }
-  .mobile-menu { display: flex; }
+  .mobile-menu { display: flex; top: 70px; }
 
   /* SECCIONES */
   section { padding: 4rem 1.5rem; }
